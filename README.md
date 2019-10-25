@@ -1,7 +1,16 @@
-# Let’s Get Building
-# Solo/Collaborative Project: Let's Get Building
+# Let’s Get Building / Basic Routes, Views and Controllers
+# Solo/Collaborative Project: Let's Get Building / Basic Routes, Views and Controllers
+
+### !!!this project was updated
+the last project descrption is here, and the old project description is bellow this one. The live version and instructions is the same.
+
 ## Project Specifications:
 
+In this project you will learn how to create and use routes for your application.
+Full task description: [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/basic-routes-views-and-controllers)
+
+#Old Version, first project
+--------------------------------------
 In this project you will use rest-client gem in order to get search engine result. Following instructions from The Ruby on Rails tutorial, you will build site’s static pages.[project description](https://www.theodinproject.com/courses/ruby-on-rails/lessons/let-s-get-building)
 
 ## Warm up project repository
