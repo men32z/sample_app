@@ -5,6 +5,10 @@ ruby '2.6.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+
+# Use Bootstrap
+gem 'bootstrap-sass', '3.3.7'
+
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
@@ -66,3 +70,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# testing IntegrationTest
+gem 'rails-controller-testing'
