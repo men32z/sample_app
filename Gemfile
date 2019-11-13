@@ -9,6 +9,12 @@ gem 'rails', '~> 5.2.3'
 # bcrypt
 gem 'bcrypt', '3.1.12'
 
+gem 'faker', '1.7.3'
+
+gem 'will_paginate',           '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
+
+
 # Use Bootstrap
 gem 'bootstrap-sass', '3.3.7'
 
