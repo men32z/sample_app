@@ -7,9 +7,9 @@ class User < ApplicationRecord
   validates :name, presence: true, length: {maximum: 50}
   validates :email, presence: true, length: {maximum: 255},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
-  validates :password, presence: true, length: {minimum: 6}
 
   has_secure_password
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
   class << self
     # Returns the hash digest of the given string.
@@ -33,7 +33,7 @@ class User < ApplicationRecord
   # Returns true if the given token matches the digest.
   def authenticated?(remember_token)
     return false if remember_digest.nil?
-    
+
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 
