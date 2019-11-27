@@ -1,8 +1,8 @@
-# Let’s Get Building / Basic Routes, Views and Controllers
+# SAMPLE APP
 # Solo/Collaborative Project: Let's Get Building / Basic Routes, Views and Controllers
 
-### !!!this project was updated
-the last project descrption is here, and the old project description is bellow this one. The live version and instructions is the same.
+### !!!this project was updated many times. see commits.
+this project was updated many times, I followed the tutorial [here](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages) by the suggestion of [the odin project](https://www.theodinproject.com) in many sections. you can see some of them bellow.
 
 ## Project Specifications:
 
