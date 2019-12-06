@@ -31,7 +31,7 @@ group :production, :test do
   gem 'fog', '1.42'
 end
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'jquery-rails', '4.3.1'
